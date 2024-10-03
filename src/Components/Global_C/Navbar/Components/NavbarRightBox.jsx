@@ -15,7 +15,7 @@ function NavbarRightBox() {
                 ) : (
                     <SignInButton
                         mode='modal'
-                        fallbackRedirectUrl={'/'}
+                        fallbackRedirectUrl={'/Pinnacle-Bank'}
                         className='text-black bg-primary-color rounded-full py-2 px-5 font-medium'
                     />
                 )

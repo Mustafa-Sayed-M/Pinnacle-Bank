@@ -20,7 +20,7 @@ root.render(
   <React.StrictMode>
     <ClerkProvider
       publishableKey={process.env.REACT_APP_CLERK_PUBLISHABLE_KEY}
-      afterSignOutUrl="/"
+      afterSignOutUrl="/Pinnacle-Bank"
     >
       <Router>
         <Provider store={store}>
